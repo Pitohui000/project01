@@ -45,7 +45,7 @@ header a:hover{
     background-color:azure;
     color:white;
     height: 100vh; 
-    background-image:url("images/gura03.png");
+    background-image:url("https://github.com/Pitohui000/project01/blob/main/20210608163612.jpg?raw=true"); <!--背景圖片-->
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
@@ -91,11 +91,12 @@ footer{
     font-size: 14px;
     line-height: 1.8em;
 }
-.shop{
+.Map{
     display: flex;
 }
-.shop img{
+.Map img{
     width: 50%;
+	height: 100%;
 }
 .info{
     width: 50%;
@@ -136,6 +137,24 @@ footer{
     font-size: 14px;
     line-height: 1.6em;
 }
+.search p{
+    margin-bottom: 20px;
+}
+.search input,.newsletter button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #949d9a;
+    padding: 10px;
+    border-radius: 5px;
+}
+.search input{
+    width: 200px;
+    margin-right: 15px;
+}
+.search button{
+    width: 80px;
+    cursor:pointer;
+} 
 .newsletter{
     background-color: #485652;
     color: white;
@@ -198,8 +217,15 @@ input:focus{
     .shop{
         flex-direction: column;
     }
-    .shop image{
+    .shop img{
         width: 100%;
+    }
+	.Map{
+        flex-direction: column;
+    }
+    .Map img{
+        width: 100%;
+		height: 100%;
     }
     .info{
         width: 100%;
