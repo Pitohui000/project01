@@ -203,9 +203,11 @@ input:focus{
     padding-left: 75px;
     margin-top: 30px;
     margin-bottom: 30px;
+
   }
   .googlemap  .container {
     display: block;
+    padding-left: 200px;
   }
 
   .googlemap  .container h2 {
@@ -215,7 +217,7 @@ input:focus{
 
   .googlemap  .container .infos {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .googlemap  .container .infos .left {
@@ -245,20 +247,20 @@ input:focus{
 
   .googlemap  .container .infos .right {
     height: 200px;
-    
+    padding-left: 100px;
   }
 
   .googlemap  .container .infos .right iframe {
-    width: 150%;
-    height: 150%;
+    width: 230%;
+    height: 180%;
   }
+  
   #fountainG{
 	position:relative;
 	width:234px;
 	height:28px;
 	margin:auto;
 }
-
 .fountainG{
 	position:absolute;
 	top:0;
@@ -297,7 +299,7 @@ input:focus{
 		-moz-border-radius:19px;
 }
 
-
+/*加載動畫*/
 #fountainG_1{
 	left:0;
 	animation-delay:0.6s;
@@ -449,6 +451,7 @@ input:focus{
 		background-color:rgb(255,255,255);
 	}
 }
+
 
 /* 響應式設計與法 */
 @media screen and (max-width:768px){
