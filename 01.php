@@ -29,7 +29,6 @@
     <a href ="#"><h1>虛擬導覽網站</h1></a>
     <!--<nav class=search>
      <ul>
-		   
         <li><a href="#">最新消息</a></li>
         <li><a href ="#">虛擬導覽</a></li>
         <li><a href ="#">園區資訊</a></li>
@@ -38,7 +37,6 @@
         <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>  搜尋icon
      </ul>
     </nav>--> 
-
         <nav class="navbar">
             <ul class="menu-list">
                 <li><a href="#">最新消息</a></li>
@@ -48,16 +46,14 @@
             </ul>
         </nav>
 
-
-
     </header>
-    <main>
+    <div class="big"></div>
+    
     <section class="news">
     <h2>這是一隻鯊魚</h2>
     <p><strong>虛擬導覽、網站撰寫，建置中...</strong></p>
     <p><a href="file:///C:/Users/zack1/OneDrive/%E6%96%87%E4%BB%B6/%E5%B0%88%E9%A1%8C/project/%E3%80%8A%E5%AD%A4%E7%8D%A8%E6%90%96%E6%BB%BE%E3%80%8B%E7%B5%90%E6%9D%9F%E3%83%90%E3%83%B3%E3%83%89.html">了解更多</a></p>
     </section>
-
     <section class="slogan">
     <blockquote cite="#">"在思考製作時，<br>要去想環境的意義"</blockquote>
     </section>
