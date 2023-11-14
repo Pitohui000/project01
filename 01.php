@@ -9,7 +9,7 @@
 	  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--icon連結的css-->
 </head>
 <body>
-    <!--加載-->
+   <!--加載-->
    <div class="loading-color">
      <div class="loading" id="fountainG">
 	     <div id="fountainG_1" class="fountainG"></div>
@@ -23,21 +23,33 @@
      </div>
     </div>
 
+    
     <header>
-        <button class="menu">&#9776;</button>
+        <button class="menu" id="mobile-menu">&#9776;</button>
     <a href ="#"><h1>虛擬導覽網站</h1></a>
-    <nav class=search>
+    <!--<nav class=search>
      <ul>
-		   <form>
+		   
         <li><a href="#">最新消息</a></li>
         <li><a href ="#">虛擬導覽</a></li>
         <li><a href ="#">園區資訊</a></li>
         <li><a href ="02.html">音樂作品查詢</a></li>
         <input type="文字" placeholder="請輸入文字" required>
-        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>  <!--搜尋icon--> 
-       </form>
+        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>  搜尋icon
      </ul>
-    </nav>
+    </nav>--> 
+
+        <nav class="navbar">
+            <ul class="menu-list">
+                <li><a href="#">最新消息</a></li>
+                <li><a href="#">虛擬導覽</a></li>
+                <li><a href="#">園區資訊</a></li>
+                <li><a href="02.html">音樂作品查詢</a></li>
+            </ul>
+        </nav>
+
+
+
     </header>
     <main>
     <section class="news">
@@ -59,15 +71,14 @@
     </div>
     </section>
 
-    <section class="googlemap">
+  <section class="googlemap">
       <div class="container">
         <h2>相關資訊</h2>
         <div class="infos">
           <div class="left"> <b>桃園市客家文化館地址:</b> <span>325桃園市龍潭區中正路三林段500號</span> <b> 電話:03-4096682</b> 
-            <b> 營業時間:<span>星期一：休息</span>
-			<span>星期二～日：09:00–17:00</span></b> 
+            <b> 營業時間:<span>星期一:休息</span><span>星期二~星期日:09:00–17:00</span></b> 
           </div>
-          <div class="right"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1810.2604679304209!2d121.23186715142786!3d24.84605159189432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683da78b0cffcf%3A0xe2a2cbcf1cebbd89!2z5qGD5ZyS5biC5a6i5a625paH5YyW6aSo!5e0!3m2!1szh-TW!2stw!4v1698993887372!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+          <div class="right"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1810.2604679304209!2d121.23186715142786!3d24.84605159189432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683da78b0cffcf%3A0xe2a2cbcf1cebbd89!2z5qGD5ZyS5biC5a6i5a625paH5YyW6aSo!5e0!3m2!1szh-TW!2stw!4v1698993887372!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
         </div>
       </div>
 
@@ -91,7 +102,16 @@
   $(document).ready(function () {
   setTimeout(function () {
     $(".loading-color").fadeOut(500);
-  },2000);
+  },3000);
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    var mobileMenuToggle = document.getElementById('mobile-menu');
+    var menuList = document.querySelector('.menu-list');
+
+    mobileMenuToggle.addEventListener('click', function () {
+        menuList.classList.toggle('show');
+    });
 });
  </script>
 </html>
