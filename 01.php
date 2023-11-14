@@ -59,14 +59,15 @@
     </div>
     </section>
 
-  <section class="googlemap">
+    <section class="googlemap">
       <div class="container">
         <h2>相關資訊</h2>
         <div class="infos">
           <div class="left"> <b>桃園市客家文化館地址:</b> <span>325桃園市龍潭區中正路三林段500號</span> <b> 電話:03-4096682</b> 
-            <b> 營業時間:<span>星期六:09:00–17:00</span><span>星期日:09:00–17:00</span><span>星期一:休息</span><span>星期一:09:00–17:00</span><span>星期二:09:00–17:00</span><span>星期三:09:00–17:00</span><span>星期四:09:00–17:00</span><span>星期五:09:00–17:00</span></b> 
+            <b> 營業時間:<span>星期一：休息</span>
+			<span>星期二～日：09:00–17:00</span></b> 
           </div>
-          <div class="right"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1810.2604679304209!2d121.23186715142786!3d24.84605159189432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683da78b0cffcf%3A0xe2a2cbcf1cebbd89!2z5qGD5ZyS5biC5a6i5a625paH5YyW6aSo!5e0!3m2!1szh-TW!2stw!4v1698993887372!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+          <div class="right"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1810.2604679304209!2d121.23186715142786!3d24.84605159189432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683da78b0cffcf%3A0xe2a2cbcf1cebbd89!2z5qGD5ZyS5biC5a6i5a625paH5YyW6aSo!5e0!3m2!1szh-TW!2stw!4v1698993887372!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
         </div>
       </div>
 

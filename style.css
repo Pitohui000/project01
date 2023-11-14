@@ -198,7 +198,7 @@ input:focus{
 }
 
 /* 相關資訊 */
-.googlemap  {
+  .googlemap  {
     display: flex;
     padding-left: 75px;
     margin-top: 30px;
@@ -207,7 +207,7 @@ input:focus{
   }
   .googlemap  .container {
     display: block;
-    padding-left: 200px;
+    padding-left: 000px;
   }
 
   .googlemap  .container h2 {
@@ -246,13 +246,13 @@ input:focus{
   }
 
   .googlemap  .container .infos .right {
-    height: 200px;
-    padding-left: 100px;
+    height: 600px;
+	padding-left: 100px;
   }
 
   .googlemap  .container .infos .right iframe {
-    width: 230%;
-    height: 180%;
+    width: 200%;
+    height: 80%;
   }
   
   #fountainG{
@@ -496,25 +496,20 @@ input:focus{
     .info h2{
         font-size: 30px;
     }
-    .container 
-    {
-        left: 50%;
-        font-size: 30px;
-        flex-direction: column;
+	.googlemap .container .infos{
+          flex-direction: column;
+    }	
+    .googlemap  .container .infos .right {
+	padding-left: 0px;
+	padding-top: 20px;
     }
-    .googlemap {
-         
-          position: relative;
-          padding-bottom: 50%; /* 此為地圖長寬比 */
-          height: 0;
+    .googlemap .container .infos .right iframe {
+          /*position: absolute;*/
+          left: 100%;
+          width: 90% !important;
+          height: 50% !important;
+          padding-bottom: 50%;  /* 此為地圖長寬比 */
           overflow: hidden;
-    }
-    .googlemap iframe {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100% !important;
-          height: 100% !important;
     }
 
 }
