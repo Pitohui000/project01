@@ -203,7 +203,6 @@ input:focus{
     padding-left: 75px;
     margin-top: 30px;
     margin-bottom: 30px;
-
   }
   .googlemap  .container {
     display: block;
@@ -247,7 +246,7 @@ input:focus{
 
   .googlemap  .container .infos .right {
     height: 600px;
-	padding-left: 100px;
+	padding-left: 200px;
   }
 
   .googlemap  .container .infos .right iframe {
@@ -496,20 +495,26 @@ input:focus{
     .info h2{
         font-size: 30px;
     }
+    .googlemap  {
+		padding-left: 0px;
+    }
 	.googlemap .container .infos{
           flex-direction: column;
     }	
+    .googlemap  .container .infos .left {
+		padding-left: 15px;
+    }
     .googlemap  .container .infos .right {
-	padding-left: 0px;
-	padding-top: 20px;
+		padding-left: 0px;
+		padding-top: 20px;
+		height: 400px;
     }
     .googlemap .container .infos .right iframe {
           /*position: absolute;*/
           left: 100%;
-          width: 90% !important;
-          height: 50% !important;
-          padding-bottom: 50%;  /* 此為地圖長寬比 */
+          width: 115% ;
+          height: 100% ;
+          padding-bottom: 50%; 
           overflow: hidden;
     }
-
 }
