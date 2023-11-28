@@ -53,7 +53,7 @@ header a:hover{
     background-color:azure;
     color:white;
     height: 100vh; 
-    background-image:url("https://github.com/Pitohui000/project01/blob/main/20210608163612.jpg?raw=true"); /*背景圖片*/
+    background-image:url("https://github.com/Pitohui000/project01/blob/main/2Dimage/IMG_0662.JPG?raw=true"); /*背景圖片*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
@@ -382,6 +382,9 @@ input:focus{
     width: 100%;
     height: 100%;
     background: white;
+    background-image: url(rori.gif);
+    background-position: 50% 25px;
+    background-repeat: no-repeat;
     z-index: 9999;
 }
 
@@ -390,9 +393,10 @@ input:focus{
     width: 80px;
     height: 80px;
     top: 50%;
-    left: 2%;
+    left: 1%;
     margin-top: -15px;
     margin-left: -15px;
+    
 }
 
 @keyframes bounce_fountainG{
