@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>桃園客家文化館導覽網站</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="loading.js"></script>
     <link rel="stylesheet" href ="style.css?v=<?=time()?>">
 	  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!--icon連結的css-->
 </head>
@@ -28,30 +29,22 @@
     <a href ="#"><h1>虛擬導覽網站</h1></a>
     <nav class=search>
      <ul>
-		   <form>
-        <li><a href="#">最新消息</a></li>
-        <li><a href ="#">虛擬導覽</a></li>
-        <li><a href ="#">園區資訊</a></li>
-        <li><a href ="02.html">音樂作品查詢</a></li>
-        <input type="文字" placeholder="請輸入文字" required>
-        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>  <!--搜尋icon--> 
-       </form>
+    <!-- 搜尋表單 -->
+    <form action="" method="get">
+        <label for="search-input">搜尋：</label>
+        <input type="text" id="search-input" name="q" placeholder="輸入關鍵字">
+        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
      </ul>
     </nav>
     </header>
+
     <main>
 	<div>
 	<li><li>
 	<li><li>
 	</div>
-    <section class="Serch Bar">
-    <!-- 搜尋表單 -->
-    <form action="" method="get">
-        <label for="search-input">搜尋：</label>
-        <input type="text" id="search-input" name="q" placeholder="輸入關鍵字">
-        <button type="submit">搜尋</button>
-    </form>
-	</section>
+   <div class="big"></div>
 <?php
 // 建立數據庫連接
 $servername = "localhost";
