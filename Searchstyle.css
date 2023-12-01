@@ -1,0 +1,589 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:#333;
+    height: 80px;
+    width: 100%;
+    position:fixed;
+}
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image:url(images/gura\ \(1\).gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+}
+header ul{
+    position:absolute;
+    right:5vw;
+    top:0;
+    line-height: 80px;
+}
+
+.big
+{
+padding-top: 100px;
+}
+
+header li{
+    display:inline;
+    margin-right: 4vw;
+}
+header a{
+    color:white;
+    text-decoration: none;
+
+}
+
+header a:hover{
+    text-decoration:underline;
+
+}
+
+
+
+
+.news{
+    background-color:azure;
+    color:white;
+    height: 100vh; 
+    background-image:url("https://github.com/Pitohui000/project01/blob/main/2Dimage/IMG_0662.JPG?raw=true"); /*背景圖片*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.news h2{
+    font-size: 60px;
+    margin-top: 60px;
+    color: white;
+}
+.news p{
+    color: #fef7e6;
+    font-size: 18px;
+    margin: 25px 0;
+}
+.news a{
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+.slogan{
+    background-color: cadetblue;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+footer{
+    background-color: black;
+    color: #b7b7b7;;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+.Map{
+    display: flex;
+}
+.Map img{
+    width: 50%;
+	height: 100%;
+}
+.info{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content:center;
+}
+.info h2{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.info p{
+    text-align: center;
+    line-height: 2em;
+}
+.product{
+    display: flex;
+    background-color: #ede9ab;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 180px 80px;
+}
+.product div{
+    width: 300px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.product p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+.search form {
+    text-align: center; /* 將子元素居中 */
+}
+
+.search input, .search button {
+    display: inline-block; /* 使 input 和 button 可以水平放置 */
+}
+
+.search input {
+    width: 750px;
+	height: 40px;
+    margin-right: 15px;
+}
+.search input::placeholder {
+color: #2196f3;
+}
+.search button {
+    width: 50px;
+    height: 43px;
+    cursor: pointer;
+    border: 1px solid #949d9a;
+    background-color: transparent;
+}
+
+.newsletter{
+    background-color: #485652;
+    color: white;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter p{
+    margin-bottom: 20px;
+}
+.newsletter input,.newsletter button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #949d9a;
+    padding: 10px;
+    border-radius: 5px;
+}
+.newsletter input{
+    width: 200px;
+    margin-right: 15px;
+}
+.newsletter button{
+    width: 80px;
+    cursor:pointer;
+} 
+input::placeholder{
+    color:#dddddd;
+}
+input:focus{
+    outline: none;
+    border-color: #0066CC;
+}
+.menu{
+    display: none;
+}
+
+/* 相關資訊 */
+  .googlemap  {
+    display: flex;
+    padding-left: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .googlemap  .container {
+    display: block;
+    padding-left: 000px;
+  }
+
+  .googlemap  .container h2 {
+    color: rgb(54, 82, 110);
+    font-size: 40px;
+  }
+
+  .googlemap  .container .infos {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .googlemap  .container .infos .left {
+    display: block;
+    text-align: left;
+    margin-right: 30px;
+  }
+
+  .googlemap .container .infos .left b {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    text-decoration: bold;
+    color: Gray;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .googlemap  .container .infos .left span {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    color: rgba(39, 40, 34, 0.5);
+    font-size: 16px;
+    padding-left: 27px;
+  }
+
+  .googlemap  .container .infos .right {
+    height: 600px;
+	padding-left: 200px;
+  }
+
+  .googlemap  .container .infos .right iframe {
+    width: 200%;
+    height: 80%;
+  }
+  .selectbutton 
+  {
+	  padding-top:15px;
+	  padding-left:20%;
+	 
+  }
+  .selectbutton  button
+  {
+	  height:30px;
+	  width:55px;
+	  margin-right:15px;
+  }
+  #fountainG{
+	position:relative;
+	width:234px;
+	height:28px;
+	margin:auto;
+}
+.fountainG{
+	position:absolute;
+	top:0;
+	background-color:rgb(0,0,0);
+	width:28px;
+	height:28px;
+	animation-name:bounce_fountainG;
+		-o-animation-name:bounce_fountainG;
+		-ms-animation-name:bounce_fountainG;
+		-webkit-animation-name:bounce_fountainG;
+		-moz-animation-name:bounce_fountainG;
+	animation-duration:1.5s;
+		-o-animation-duration:1.5s;
+		-ms-animation-duration:1.5s;
+		-webkit-animation-duration:1.5s;
+		-moz-animation-duration:1.5s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+	transform:scale(.3);
+		-o-transform:scale(.3);
+		-ms-transform:scale(.3);
+		-webkit-transform:scale(.3);
+		-moz-transform:scale(.3);
+	border-radius:19px;
+		-o-border-radius:19px;
+		-ms-border-radius:19px;
+		-webkit-border-radius:19px;
+		-moz-border-radius:19px;
+}
+
+/*加載動畫*/
+#fountainG_1{
+	left:0;
+	animation-delay:0.6s;
+		-o-animation-delay:0.6s;
+		-ms-animation-delay:0.6s;
+		-webkit-animation-delay:0.6s;
+		-moz-animation-delay:0.6s;
+}
+
+#fountainG_2{
+	left:29px;
+	animation-delay:0.75s;
+		-o-animation-delay:0.75s;
+		-ms-animation-delay:0.75s;
+		-webkit-animation-delay:0.75s;
+		-moz-animation-delay:0.75s;
+}
+
+#fountainG_3{
+	left:58px;
+	animation-delay:0.9s;
+		-o-animation-delay:0.9s;
+		-ms-animation-delay:0.9s;
+		-webkit-animation-delay:0.9s;
+		-moz-animation-delay:0.9s;
+}
+
+#fountainG_4{
+	left:88px;
+	animation-delay:1.05s;
+		-o-animation-delay:1.05s;
+		-ms-animation-delay:1.05s;
+		-webkit-animation-delay:1.05s;
+		-moz-animation-delay:1.05s;
+}
+
+#fountainG_5{
+	left:117px;
+	animation-delay:1.2s;
+		-o-animation-delay:1.2s;
+		-ms-animation-delay:1.2s;
+		-webkit-animation-delay:1.2s;
+		-moz-animation-delay:1.2s;
+}
+
+#fountainG_6{
+	left:146px;
+	animation-delay:1.35s;
+		-o-animation-delay:1.35s;
+		-ms-animation-delay:1.35s;
+		-webkit-animation-delay:1.35s;
+		-moz-animation-delay:1.35s;
+}
+
+#fountainG_7{
+	left:175px;
+	animation-delay:1.5s;
+		-o-animation-delay:1.5s;
+		-ms-animation-delay:1.5s;
+		-webkit-animation-delay:1.5s;
+		-moz-animation-delay:1.5s;
+}
+
+#fountainG_8{
+	left:205px;
+	animation-delay:1.64s;
+		-o-animation-delay:1.64s;
+		-ms-animation-delay:1.64s;
+		-webkit-animation-delay:1.64s;
+		-moz-animation-delay:1.64s;
+}
+/*加載目前沒用到*/
+.loading-color {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    background-image: url(rori.gif);
+    background-position: 50% 25px;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+
+.loading {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 1%;
+    margin-top: -15px;
+    margin-left: -15px;
+    
+}
+/*按鈕特效*/
+.search button{
+
+    cursor: pointer;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    transition: all .3s linear;
+}
+.search button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.selectbutton button{
+	cursor: pointer;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    transition: all .3s linear;
+}
+.selectbutton button:hover{
+	background-color: #000;
+    color: #fff;
+}
+@keyframes bounce_fountainG{
+	0%{
+	transform:scale(1);
+		background-color:rgb(0,0,0);
+	}
+
+	100%{
+	transform:scale(.3);
+		background-color:rgb(255,255,255);
+	}
+}
+
+@-o-keyframes bounce_fountainG{
+	0%{
+	-o-transform:scale(1);
+		background-color:rgb(0,0,0);
+	}
+
+	100%{
+	-o-transform:scale(.3);
+		background-color:rgb(255,255,255);
+	}
+}
+
+@-ms-keyframes bounce_fountainG{
+	0%{
+	-ms-transform:scale(1);
+		background-color:rgb(0,0,0);
+	}
+
+	100%{
+	-ms-transform:scale(.3);
+		background-color:rgb(255,255,255);
+	}
+}
+
+@-webkit-keyframes bounce_fountainG{
+	0%{
+	-webkit-transform:scale(1);
+		background-color:rgb(0,0,0);
+	}
+
+	100%{
+	-webkit-transform:scale(.3);
+		background-color:rgb(255,255,255);
+	}
+}
+
+@-moz-keyframes bounce_fountainG{
+	0%{
+	-moz-transform:scale(1);
+		background-color:rgb(0,0,0);
+	}
+
+	100%{
+	-moz-transform:scale(.3);
+		background-color:rgb(255,255,255);
+	}
+}
+
+
+/* 響應式設計與法 */
+@media screen and (max-width:768px){
+    header ul{
+        display: none;
+    }
+    header h1{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .news h2{
+        font-size: 40px;
+    }
+    .menu{
+        display: block;
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .shop{
+        flex-direction: column;
+    }
+    .shop img{
+        width: 100%;
+    }
+	.Map{
+        flex-direction: column;
+    }
+    .Map img{
+        width: 100%;
+		height: 100%;
+    }
+    .info{
+        width: 100%;
+        padding:40px 0 ;
+    }
+    .info h2{
+        font-size: 30px;
+    }
+    .googlemap  {
+		padding-left: 0px;
+    }
+	.googlemap .container .infos{
+          flex-direction: column;
+    }	
+    .googlemap  .container .infos .left {
+		padding-left: 15px;
+    }
+    .googlemap  .container .infos .right {
+		padding-left: 0px;
+		padding-top: 20px;
+		height: 400px;
+    }
+    .googlemap .container .infos .right iframe {
+          /*position: absolute;*/
+          left: 100%;
+          width: 115% ;
+          height: 100% ;
+          padding-bottom: 50%; 
+          overflow: hidden;
+    }
+    .menu {
+        display: block;
+            }
+    
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        }
+    
+    .menu-list.show {
+        display: flex;
+        }
+    
+    .menu-list li {
+        margin: 10px 0;
+        }
+}
